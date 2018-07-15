@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<CommandsVisibility>
+		<Command name="CommonCommand.СправочникКонтрагенты">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonCommand.СправочникНоменклатура">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonCommand.ДокументПоступлениеТоваровИУслуг">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonCommand.ДокументРеализацияТоваровИУслуг">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonCommand.ОтчетНастройкиКомпоновкиДанных">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonCommand.ЗакрытьВсеОкна">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonCommand.УправлениеОкнами">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="CommonCommand.СправочникКонтрагенты">
+			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="CommonCommand.СправочникНоменклатура">
+			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="CommonCommand.ДокументПоступлениеТоваровИУслуг">
+			<CommandGroup>CommandGroup.Документы</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="CommonCommand.ДокументРеализацияТоваровИУслуг">
+			<CommandGroup>CommandGroup.Документы</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="CommonCommand.ОтчетНастройкиКомпоновкиДанных">
+			<CommandGroup>CommandGroup.Отчеты</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="CommonCommand.ЗакрытьВсеОкна">
+			<CommandGroup>CommandGroup.Окна</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="CommonCommand.УправлениеОкнами">
+			<CommandGroup>CommandGroup.Окна</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+	</CommandsPlacement>
+</CommandInterface>

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Configuration uuid="e3f49e94-3c66-4024-8255-874744763183">
+		<InternalInfo>
+			<xr:ContainedObject>
+				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
+				<xr:ObjectId>0461b5d4-df45-4edb-9dc1-1882d118b8cb</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
+				<xr:ObjectId>4e948fb1-a38e-49f3-89d8-84eac8b7096f</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
+				<xr:ObjectId>1d2253bc-dec5-4d75-9a42-f2ad721c0923</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
+				<xr:ObjectId>599611e6-9404-4c22-a503-4a36755a9f26</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
+				<xr:ObjectId>a8fcd8e0-b411-4be3-a7a0-7b5de94d7555</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
+				<xr:ObjectId>adbd911b-f2bb-4bc9-860c-9d85049cede4</xr:ObjectId>
+			</xr:ContainedObject>
+		</InternalInfo>
+		<Properties>
+			<Name>Конфигурация</Name>
+			<Synonym/>
+			<Comment/>
+			<NamePrefix/>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_10</ConfigurationExtensionCompatibilityMode>
+			<DefaultRunMode>ManagedApplication</DefaultRunMode>
+			<UsePurposes>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">PersonalComputer</v8:Value>
+			</UsePurposes>
+			<ScriptVariant>Russian</ScriptVariant>
+			<DefaultRoles/>
+			<Vendor/>
+			<Version>1.0.0.1</Version>
+			<UpdateCatalogAddress/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
+			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
+			<AdditionalFullTextSearchDictionaries/>
+			<CommonSettingsStorage/>
+			<ReportsUserSettingsStorage/>
+			<ReportsVariantsStorage/>
+			<FormDataSettingsStorage/>
+			<DynamicListsUserSettingsStorage/>
+			<Content/>
+			<DefaultReportForm/>
+			<DefaultReportVariantForm/>
+			<DefaultReportSettingsForm/>
+			<DefaultDynamicListSettingsForm/>
+			<DefaultSearchForm/>
+			<RequiredMobileApplicationPermissions>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Multimedia</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Location</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Contacts</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Calendars</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Telephony</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">PushNotification</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">LocalNotification</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Print</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">InAppPurchases</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Ads</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+			</RequiredMobileApplicationPermissions>
+			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
+			<DefaultInterface/>
+			<DefaultStyle/>
+			<DefaultLanguage>Language.Русский</DefaultLanguage>
+			<BriefInformation/>
+			<DetailedInformation/>
+			<Copyright/>
+			<VendorInformationAddress/>
+			<ConfigurationInformationAddress/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
+			<ModalityUseMode>Use</ModalityUseMode>
+			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
+			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
+			<CompatibilityMode>Version8_3_6</CompatibilityMode>
+			<DefaultConstantsForm/>
+		</Properties>
+		<ChildObjects>
+			<Language>Русский</Language>
+			<Subsystem>Продажи</Subsystem>
+			<Subsystem>Покупки</Subsystem>
+			<Subsystem>Склад</Subsystem>
+			<Subsystem>Справочники</Subsystem>
+			<Subsystem>Отчеты</Subsystem>
+			<Subsystem>Администрирование</Subsystem>
+			<Subsystem>ПокупкиИПродажи</Subsystem>
+			<Subsystem>Номенклатура</Subsystem>
+			<Subsystem>СправочникиИНастройкиУчета</Subsystem>
+			<Style>Основной</Style>
+			<CommonPicture>Контрагенты</CommonPicture>
+			<CommonPicture>КонтрагентФЛ1</CommonPicture>
+			<CommonPicture>КонтрагентФЛ2</CommonPicture>
+			<CommonPicture>КонтрагентЮЛ1</CommonPicture>
+			<CommonPicture>КонтрагентЮЛ2</CommonPicture>
+			<CommonPicture>Покупки</CommonPicture>
+			<CommonPicture>Продажи</CommonPicture>
+			<CommonPicture>Склад</CommonPicture>
+			<CommonPicture>Справочники</CommonPicture>
+			<CommonPicture>Отчеты</CommonPicture>
+			<CommonPicture>Администрирование</CommonPicture>
+			<CommonPicture>ФорматыФайлов</CommonPicture>
+			<CommonPicture>Файлы</CommonPicture>
+			<CommonPicture>ЕстьФайлы</CommonPicture>
+			<CommonPicture>НетФайлов</CommonPicture>
+			<CommonPicture>Процент</CommonPicture>
+			<CommonPicture>ДлительнаяОперация</CommonPicture>
+			<CommonPicture>СвойстваОбъектов</CommonPicture>
+			<CommonPicture>ПометкаУдаленияЭлементСправочника</CommonPicture>
+			<CommonPicture>СправочникКонтрагенты</CommonPicture>
+			<CommonPicture>ДобавитьНаРабочийСтол</CommonPicture>
+			<CommonPicture>УдалитьСРабочегоСтола</CommonPicture>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<Role>ПолныеПрава</Role>
+			<Role>Менеджер</Role>
+			<Role>ГлавныйМенеджер</Role>
+			<FilterCriterion>НоменклатураВДокументах</FilterCriterion>
+			<CommonModule>ОбщийМодуль1</CommonModule>
+			<CommonModule>МодульФоновыеЗаданияУпрИнтерфейс</CommonModule>
+			<CommonModule>ОбработкаТабличныхЧастей</CommonModule>
+			<CommonModule>РаботаСФайлами</CommonModule>
+			<CommonModule>РаботаСФайламиСервер</CommonModule>
+			<CommonModule>МодульФоновыхЗаданий</CommonModule>
+			<CommonModule>ОбщегоНазначенияСервер</CommonModule>
+			<ScheduledJob>ОбновлениеИндексаППД</ScheduledJob>
+			<ScheduledJob>СлияниеИндексаППД</ScheduledJob>
+			<FunctionalOption>УчетПоСкладам</FunctionalOption>
+			<FunctionalOption>ОсновнойСклад</FunctionalOption>
+			<FunctionalOption>ВестиУчетПоДоговорам</FunctionalOption>
+			<FunctionalOption>ВестиУчетПоДоговорамКонтекст</FunctionalOption>
+			<FunctionalOption>ОказаниеУслуг</FunctionalOption>
+			<FunctionalOption>ВыпускПродукции</FunctionalOption>
+			<FunctionalOption>ИнтерфейсВерсия82</FunctionalOption>
+			<FunctionalOption>ИнтерфейсТакси</FunctionalOption>
+			<FunctionalOptionsParameter>Контрагент</FunctionalOptionsParameter>
+			<FunctionalOptionsParameter>НастройкаФормы</FunctionalOptionsParameter>
+			<FunctionalOptionsParameter>Организация</FunctionalOptionsParameter>
+			<FunctionalOptionsParameter>Пользователь</FunctionalOptionsParameter>
+			<CommonCommand>ЗакрытьВсеОкна</CommonCommand>
+			<CommonCommand>УправлениеОкнами</CommonCommand>
+			<CommonCommand>СправочникНоменклатура</CommonCommand>
+			<CommonCommand>СправочникКонтрагенты</CommonCommand>
+			<CommonCommand>ДокументПоступлениеТоваровИУслуг</CommonCommand>
+			<CommonCommand>ДокументРеализацияТоваровИУслуг</CommonCommand>
+			<CommonCommand>ОтчетНастройкиКомпоновкиДанных</CommonCommand>
+			<CommonCommand>ДобавитьНаРабочийСтол</CommonCommand>
+			<CommonCommand>УбратьСРабочегоСтола</CommonCommand>
+			<CommonCommand>ОбщиеНастройки</CommonCommand>
+			<CommonCommand>НастройкиПользователя</CommonCommand>
+			<CommandGroup>Настройки</CommandGroup>
+			<CommandGroup>Печать</CommandGroup>
+			<CommandGroup>Справочники</CommandGroup>
+			<CommandGroup>Документы</CommandGroup>
+			<CommandGroup>Отчеты</CommandGroup>
+			<CommandGroup>Окна</CommandGroup>
+			<Constant>ТолькоЮридическиеЛица</Constant>
+			<Constant>ПутьККаталогуХранилища</Constant>
+			<Constant>ОсновнойСклад</Constant>
+			<Constant>ВерсияИБ</Constant>
+			<Constant>УчетПоСкладам</Constant>
+			<Constant>ИнтерфейсВерсия82</Constant>
+			<Constant>ИнтерфейсТакси</Constant>
+			<CommonForm>ФормаПометкиСписка</CommonForm>
+			<CommonForm>ФормаДлительнойОперации</CommonForm>
+			<CommonForm>ФормаПрогресса</CommonForm>
+			<CommonForm>ОткрытыеОкна</CommonForm>
+			<CommonForm>ОбщиеНастройки</CommonForm>
+			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>Организации</Catalog>
+			<Catalog>Номенклатура</Catalog>
+			<Catalog>ТипыЦен</Catalog>
+			<Catalog>Договоры</Catalog>
+			<Catalog>Склады</Catalog>
+			<Catalog>Валюты</Catalog>
+			<Catalog>ХранилищеИзображений</Catalog>
+			<Catalog>ХранилищеФайлов</Catalog>
+			<Catalog>ЗначенияСвойствОбъектов</Catalog>
+			<Catalog>ПараметрыКонтекстныхФункциональныхОпций</Catalog>
+			<Catalog>Пользователи</Catalog>
+			<Document>СчетНаОплатуПокупателю</Document>
+			<Document>ПоступлениеТоваровУслуг</Document>
+			<Document>РеализацияТоваровУслуг</Document>
+			<Document>УстановкаЦенНоменклатуры</Document>
+			<Enum>ЮридическоеФизическоеЛицо</Enum>
+			<Enum>ВидыНоменклатуры</Enum>
+			<Enum>ОтветственныеЛицаОрганизаций</Enum>
+			<Report>НастройкиКомпоновкиДанных</Report>
+			<DataProcessor>ОбработкаДанныхЗаПериод</DataProcessor>
+			<DataProcessor>РабочийСтол</DataProcessor>
+			<DataProcessor>ActiveX</DataProcessor>
+			<DataProcessor>УправлениеОткрытымиФормами</DataProcessor>
+			<DataProcessor>ДанныеФормы</DataProcessor>
+			<DataProcessor>СписокЗначений</DataProcessor>
+			<DataProcessor>ВременноеХранилищеИФоновоеЗадание</DataProcessor>
+			<DataProcessor>УправлениеОткрытымиФормами1</DataProcessor>
+			<DataProcessor>КонсольЗапросов</DataProcessor>
+			<DataProcessor>ОбработкаДанных</DataProcessor>
+			<DataProcessor>ОбработкаДанных2</DataProcessor>
+			<DataProcessor>КонсольЗаданий</DataProcessor>
+			<DataProcessor>ОбработкаДанных3</DataProcessor>
+			<DataProcessor>ПодборНоменклатуры</DataProcessor>
+			<DataProcessor>ЗначенияСвойствОбъекта</DataProcessor>
+			<DataProcessor>ОбновлениеИнформационнойБазы</DataProcessor>
+			<InformationRegister>ОтветственныеЛицаОрганизаций</InformationRegister>
+			<InformationRegister>КурсыВалют</InformationRegister>
+			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
+			<InformationRegister>ЗначенияСвойствОбъектов</InformationRegister>
+			<InformationRegister>УчетнаяПолитика</InformationRegister>
+			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
+			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
+			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>НазначенияСвойствОбъектов</ChartOfCharacteristicTypes>
+		</ChildObjects>
+	</Configuration>
+</MetaDataObject>

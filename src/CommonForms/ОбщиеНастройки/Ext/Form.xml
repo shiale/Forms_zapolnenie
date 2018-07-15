@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="AfterWrite">ПослеЗаписи</Event>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+	</Events>
+	<ChildItems>
+		<CheckBoxField name="ТолькоЮридическиеЛица" id="1">
+			<DataPath>НаборКонстант.ТолькоЮридическиеЛица</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ТолькоЮридическиеЛицаКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ТолькоЮридическиеЛицаРасширеннаяПодсказка" id="3"/>
+		</CheckBoxField>
+		<InputField name="ПутьККаталогуХранилища" id="4">
+			<DataPath>НаборКонстант.ПутьККаталогуХранилища</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПутьККаталогуХранилищаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ПутьККаталогуХранилищаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ОсновнойСклад" id="7">
+			<DataPath>НаборКонстант.ОсновнойСклад</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОсновнойСкладКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОсновнойСкладРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ВерсияИБ" id="10">
+			<DataPath>НаборКонстант.ВерсияИБ</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВерсияИБКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ВерсияИБРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<CheckBoxField name="УчетПоСкладам" id="13">
+			<DataPath>НаборКонстант.УчетПоСкладам</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="УчетПоСкладамКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="УчетПоСкладамРасширеннаяПодсказка" id="15"/>
+		</CheckBoxField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НаборКонстант" id="1">
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

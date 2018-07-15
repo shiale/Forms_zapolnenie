@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Table name="ТабЧасть" id="1">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ТабЧасть</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТабЧастьКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="ТабЧастьКоманднаяПанель" id="3">
+				<ChildItems>
+					<Popup name="ТабЧастьГруппа1" id="27">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Обработка</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ТабЧастьГруппа1РасширеннаяПодсказка" id="28"/>
+						<ChildItems>
+							<Button name="ТабЧастьОбработкаНаКлиенте" id="23">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ОбработкаНаКлиенте</CommandName>
+								<ExtendedTooltip name="ТабЧастьОбработкаНаКлиентеРасширеннаяПодсказка" id="24"/>
+							</Button>
+							<Button name="ТабЧастьОбработкаНаСервере" id="25">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ОбработкаНаСервере</CommandName>
+								<ExtendedTooltip name="ТабЧастьОбработкаНаСервереРасширеннаяПодсказка" id="26"/>
+							</Button>
+							<Button name="ТабЧастьКонтекстныйВызов" id="29">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.КонтекстныйВызов</CommandName>
+								<ExtendedTooltip name="ТабЧастьКонтекстныйВызовРасширеннаяПодсказка" id="30"/>
+							</Button>
+							<Button name="ТабЧастьПередачаЧерезПараметр" id="31">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ПередачаЧерезПараметр</CommandName>
+								<ExtendedTooltip name="ТабЧастьПередачаЧерезПараметрРасширеннаяПодсказка" id="32"/>
+							</Button>
+						</ChildItems>
+					</Popup>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ТабЧастьРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="ТабЧастьСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>ТабЧасть</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТабЧастьСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ТабЧастьСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТабЧастьСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>ТабЧасть</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТабЧастьСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ТабЧастьСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТабЧастьУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>ТабЧасть</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТабЧастьУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ТабЧастьУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ТабЧастьНомерСтроки" id="14">
+					<DataPath>Объект.ТабЧасть.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТабЧастьНомерСтрокиКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ТабЧастьНомерСтрокиРасширеннаяПодсказка" id="16"/>
+				</LabelField>
+				<InputField name="ТабЧастьОбъект" id="17">
+					<DataPath>Объект.ТабЧасть.Объект</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТабЧастьОбъектКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ТабЧастьОбъектРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<InputField name="ТабЧастьПоказатель" id="20">
+					<DataPath>Объект.ТабЧасть.Показатель</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТабЧастьПоказательКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ТабЧастьПоказательРасширеннаяПодсказка" id="22"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ДанныеФормы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОбработкаНаКлиенте" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработка на клиенте</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработка на клиенте</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбработкаНаКлиенте</Action>
+		</Command>
+		<Command name="ОбработкаНаСервере" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработка на сервере</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработка на сервере</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбработкаНаСервере</Action>
+		</Command>
+		<Command name="КонтекстныйВызов" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контекстный вызов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контекстный вызов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КонтекстныйВызов</Action>
+		</Command>
+		<Command name="ПередачаЧерезПараметр" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Передача через параметр</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Передача через параметр</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПередачаЧерезПараметр</Action>
+		</Command>
+	</Commands>
+</Form>
