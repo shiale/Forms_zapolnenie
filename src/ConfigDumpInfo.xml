@@ -431,8 +431,8 @@
 			<Metadata name="Document.СчетНаОплатуПокупателю.TabularSection.Услуги" id="ec6601b1-42e5-4e6e-9436-550b2995e66a"/>
 			<Metadata name="Document.СчетНаОплатуПокупателю.TabularSection.Товары.Attribute.Количество" id="fa5bd2b2-989a-4135-90d8-315da1d9446c"/>
 		</Metadata>
-		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента" id="e750e8ff-797d-420e-9564-9b48c9c846c9" configVersion="4cda897f864b5949acd7f4f2ebc6cccd00000000"/>
-		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента.Form" id="e750e8ff-797d-420e-9564-9b48c9c846c9.0" configVersion="bcb4299b0f07894aa95161836e71d76200000000"/>
+		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента" id="e750e8ff-797d-420e-9564-9b48c9c846c9" configVersion="059b8101eb298f4b807eb0121eb3901400000000"/>
+		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента.Form" id="e750e8ff-797d-420e-9564-9b48c9c846c9.0" configVersion="e05fa86ed12d2142901fdb417b9783dc00000000"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента.Help" id="e750e8ff-797d-420e-9564-9b48c9c846c9.1" configVersion="7c4e1e8aed74844d87124b1cee9fffc000000000"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокументаУправляемая" id="8507ccc4-fe96-429a-8e4e-281515504003" configVersion="45df35b67a98c7478cf5b2177b2e07a400000000"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокументаУправляемая.Form" id="8507ccc4-fe96-429a-8e4e-281515504003.0" configVersion="12c3d1ac9ef4174089f653d1112d8b3600000000"/>
