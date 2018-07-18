@@ -52,7 +52,7 @@
 			<DefaultObjectForm/>
 			<DefaultListForm>Document.ПоступлениеТоваровУслуг.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
-			<AuxiliaryObjectForm/>
+			<AuxiliaryObjectForm>Document.ПоступлениеТоваровУслуг.Form.ФормаДокумента</AuxiliaryObjectForm>
 			<AuxiliaryListForm/>
 			<AuxiliaryChoiceForm/>
 			<Posting>Allow</Posting>
