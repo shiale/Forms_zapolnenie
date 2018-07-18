@@ -434,8 +434,8 @@
 		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента" id="e750e8ff-797d-420e-9564-9b48c9c846c9" configVersion="059b8101eb298f4b807eb0121eb3901400000000"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента.Form" id="e750e8ff-797d-420e-9564-9b48c9c846c9.0" configVersion="e05fa86ed12d2142901fdb417b9783dc00000000"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента.Help" id="e750e8ff-797d-420e-9564-9b48c9c846c9.1" configVersion="7c4e1e8aed74844d87124b1cee9fffc000000000"/>
-		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокументаУправляемая" id="8507ccc4-fe96-429a-8e4e-281515504003" configVersion="45df35b67a98c7478cf5b2177b2e07a400000000"/>
-		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокументаУправляемая.Form" id="8507ccc4-fe96-429a-8e4e-281515504003.0" configVersion="12c3d1ac9ef4174089f653d1112d8b3600000000"/>
+		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокументаУправляемая" id="8507ccc4-fe96-429a-8e4e-281515504003" configVersion="ff7da6d29e93a9449e739741f699fa9700000000"/>
+		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокументаУправляемая.Form" id="8507ccc4-fe96-429a-8e4e-281515504003.0" configVersion="4f5d89869d678844bf72f7f5111590b200000000"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю.Help" id="5c08d97f-13f8-471b-b8a0-582b2dc72576.1" configVersion="7f474ca463c0bb4f94bf6bab2a37a1c000000000"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю.ManagerModule" id="5c08d97f-13f8-471b-b8a0-582b2dc72576.2" configVersion="a15a432bcccc5e48af318f251d06a0e600000000"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю.ObjectModule" id="5c08d97f-13f8-471b-b8a0-582b2dc72576.0" configVersion="b04023f9be8a4a4ebe59737282685dee00000000"/>
