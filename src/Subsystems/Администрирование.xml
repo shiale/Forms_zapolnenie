@@ -23,6 +23,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ВременноеХранилищеИФоновоеЗадание</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ЗакрытьВсеОкна</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.УправлениеОкнами</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ПерсональныеНастройки</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

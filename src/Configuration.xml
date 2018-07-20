@@ -205,6 +205,7 @@
 			<CommonForm>ФормаПрогресса</CommonForm>
 			<CommonForm>ОткрытыеОкна</CommonForm>
 			<CommonForm>ОбщиеНастройки</CommonForm>
+			<CommonForm>ПерсональныеНастройки</CommonForm>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Организации</Catalog>

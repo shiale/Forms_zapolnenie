@@ -160,6 +160,8 @@
 		<Metadata name="CommonForm.ОбщиеНастройки.Form" id="96696820-05a2-45a3-9082-a59db0610762.0" configVersion="30f73ed46da4a142b16a81ba6fa4cec800000000"/>
 		<Metadata name="CommonForm.ОткрытыеОкна" id="d80e11ca-30e6-495a-80d4-c58e74974907" configVersion="96f7b27e9cbc584193ca064dd9684fdc00000000"/>
 		<Metadata name="CommonForm.ОткрытыеОкна.Form" id="d80e11ca-30e6-495a-80d4-c58e74974907.0" configVersion="6dcba211c0282f478c8ada64d785481700000000"/>
+		<Metadata name="CommonForm.ПерсональныеНастройки" id="f0ae4dea-4742-4384-87db-9f483a43976d" configVersion="507853dc48eca14b81f83a08ac5baf1700000000"/>
+		<Metadata name="CommonForm.ПерсональныеНастройки.Form" id="f0ae4dea-4742-4384-87db-9f483a43976d.0" configVersion="1c7403a4797b84418a38dd9b9afeab2200000000"/>
 		<Metadata name="CommonForm.ФормаДлительнойОперации" id="26f2ee6a-f2b6-4026-afea-5c95256b5e78" configVersion="87f9ed5b20a88643a18556f8379d774200000000"/>
 		<Metadata name="CommonForm.ФормаДлительнойОперации.Form" id="26f2ee6a-f2b6-4026-afea-5c95256b5e78.0" configVersion="d8b540c967628849b463e902bd78640700000000"/>
 		<Metadata name="CommonForm.ФормаПометкиСписка" id="5e7b53a6-6672-4fca-abaf-b9b1ab975ccb" configVersion="c793bcc9f23c1a4e8929f7d639e572d000000000"/>
@@ -224,7 +226,7 @@
 		<Metadata name="CommonPicture.Файлы.Picture" id="301078c4-a2e7-4e9f-899c-0cf7c2049a31.0" configVersion="a2cc3f26de1b67458ba89200e1cb42f800000000"/>
 		<Metadata name="CommonPicture.ФорматыФайлов" id="aed21766-fa2e-49b0-8e92-3d6aa02c3d99" configVersion="4a4af7fb3cf99b42b422775deffb300f00000000"/>
 		<Metadata name="CommonPicture.ФорматыФайлов.Picture" id="aed21766-fa2e-49b0-8e92-3d6aa02c3d99.0" configVersion="cae4d4e31b6f3d4d92cd8b4b6b47abca00000000"/>
-		<Metadata name="Configuration.Конфигурация" id="e3f49e94-3c66-4024-8255-874744763183" configVersion="017410eebd6e2344b381d407297ee24400000000"/>
+		<Metadata name="Configuration.Конфигурация" id="e3f49e94-3c66-4024-8255-874744763183" configVersion="13bef51630452c41aab1c2352d9d569800000000"/>
 		<Metadata name="Configuration.Конфигурация.ClientApplicationInterface" id="0461b5d4-df45-4edb-9dc1-1882d118b8cb.b" configVersion="092b11ea84797540acfc7248f7e4541f00000000"/>
 		<Metadata name="Configuration.Конфигурация.CommandInterface" id="0461b5d4-df45-4edb-9dc1-1882d118b8cb.a" configVersion="478db164c6344340ba448ce99ad3cf4100000000"/>
 		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="0461b5d4-df45-4edb-9dc1-1882d118b8cb.8" configVersion="b6e682606fc059439ffa2f541ca1348e00000000"/>
@@ -534,7 +536,7 @@
 		<Metadata name="SessionParameter.ТекущийПользователь" id="2b390b55-9496-42bc-b332-aa3e1cae6292" configVersion="e0f0b1214c327b47ad50ab8c122f6a6800000000"/>
 		<Metadata name="Style.Основной" id="c434d938-4342-4876-91d1-3c4d750b55b4" configVersion="74f5b13cfe95c0449682b181ba30eb8a00000000"/>
 		<Metadata name="Style.Основной.Style" id="c434d938-4342-4876-91d1-3c4d750b55b4.0" configVersion="b264b695eb65e741b07576bdad75205f00000000"/>
-		<Metadata name="Subsystem.Администрирование" id="9cfe362f-6288-499e-99da-9201689da0f8" configVersion="bec57d9604d9044db322f0641ec4157a00000000"/>
+		<Metadata name="Subsystem.Администрирование" id="9cfe362f-6288-499e-99da-9201689da0f8" configVersion="9afab174d3e167459db85cca4c6728dc00000000"/>
 		<Metadata name="Subsystem.Администрирование.Subsystem.НастройкиПрограммы" id="4fa012c7-61f1-4da0-bfa1-508115ad7d4b" configVersion="edacdc1875320e48b26a6819c1195c5100000000"/>
 		<Metadata name="Subsystem.Администрирование.Subsystem.НастройкиПрограммы.CommandInterface" id="4fa012c7-61f1-4da0-bfa1-508115ad7d4b.1" configVersion="6826fca6ae72b944b8beee72f037ce1a00000000"/>
 		<Metadata name="Subsystem.Администрирование.Subsystem.НастройкиПрограммы.Help" id="4fa012c7-61f1-4da0-bfa1-508115ad7d4b.0" configVersion="fa0ae6562f167e44a6d4ad43758455c900000000"/>
