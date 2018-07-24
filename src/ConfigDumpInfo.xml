@@ -388,7 +388,7 @@
 		<Metadata name="Document.ПоступлениеТоваровУслуг.Form.ФормаСпискаОбычная" id="f0b014de-7ab7-421e-adfa-4070ec37a48f" configVersion="8aa7c7e723669841b80b8808c45efb3000000000"/>
 		<Metadata name="Document.ПоступлениеТоваровУслуг.Form.ФормаСпискаОбычная.Form" id="f0b014de-7ab7-421e-adfa-4070ec37a48f.0" configVersion="0e94b21a8ae58746a1e1dbc1ade9293c00000000"/>
 		<Metadata name="Document.ПоступлениеТоваровУслуг.ObjectModule" id="191916a1-ba4d-40d0-b103-65b225d8d50a.0" configVersion="aeb5ca5dbbf61c42af07c9e07503495500000000"/>
-		<Metadata name="Document.РеализацияТоваровУслуг" id="a6b7847f-92eb-4287-8781-7b45e4ac83a5" configVersion="d31b8dfb303d9743b28bf0a45b2cb94800000000">
+		<Metadata name="Document.РеализацияТоваровУслуг" id="a6b7847f-92eb-4287-8781-7b45e4ac83a5" configVersion="cc38d6dca04db54d9cbcec1e199126bc00000000">
 			<Metadata name="Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.Номенклатура" id="0da4b6b9-0330-44eb-ae64-ae66c916e35c"/>
 			<Metadata name="Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.Количество" id="0dd9456c-145b-48a8-b4ed-2e63dc9a4c3d"/>
 			<Metadata name="Document.РеализацияТоваровУслуг.TabularSection.Услуги.Attribute.Сумма" id="167f7c5b-65f0-4737-9669-c010ba237e04"/>
@@ -419,7 +419,7 @@
 		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаСписка.Form" id="e27895c7-1776-42df-9dce-4b2e2d29645d.0" configVersion="c95102270a69634389cf898fcdeb939000000000"/>
 		<Metadata name="Document.РеализацияТоваровУслуг.Help" id="a6b7847f-92eb-4287-8781-7b45e4ac83a5.1" configVersion="ec0466c065439349b2b0d6044195f9de00000000"/>
 		<Metadata name="Document.РеализацияТоваровУслуг.ManagerModule" id="a6b7847f-92eb-4287-8781-7b45e4ac83a5.2" configVersion="837ce813f4d2a042aef4d58151e4e7db00000000"/>
-		<Metadata name="Document.РеализацияТоваровУслуг.ObjectModule" id="a6b7847f-92eb-4287-8781-7b45e4ac83a5.0" configVersion="8860b7d17cc1094dbcc556574d671f9100000000"/>
+		<Metadata name="Document.РеализацияТоваровУслуг.ObjectModule" id="a6b7847f-92eb-4287-8781-7b45e4ac83a5.0" configVersion="a45ffe668333dd4582403d6e525239f800000000"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю" id="5c08d97f-13f8-471b-b8a0-582b2dc72576" configVersion="ee1fa1df126c034fb1923a7b55f4a23700000000">
 			<Metadata name="Document.СчетНаОплатуПокупателю.Attribute.Склад" id="000dd5d5-05a1-4618-9574-b397f364bddd"/>
 			<Metadata name="Document.СчетНаОплатуПокупателю.TabularSection.Услуги.Attribute.Сумма" id="18d15ef2-c1e3-473b-be56-26e96483ce50"/>
